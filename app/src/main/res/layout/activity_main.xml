@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.browser2345.wordsizebar.wordsizebar.RangeBar
+        android:id="@+id/rangebar"
+        android:layout_width="368dp"
+        android:layout_height="624dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
