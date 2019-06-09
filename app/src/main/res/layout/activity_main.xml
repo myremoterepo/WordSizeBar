@@ -10,4 +10,12 @@
         android:layout_height="624dp"
         android:layout_centerInParent="true"/>
 
+    <Button
+        android:id="@+id/to_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/tocontent"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

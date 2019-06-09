@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WordSizeBar</string>
+    <string name="tocontent">toContent</string>
 </resources>

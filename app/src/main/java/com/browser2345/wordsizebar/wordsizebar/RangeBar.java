@@ -131,14 +131,13 @@ public class RangeBar extends View {
         }
 
         // The RangeBar height should be as small as possible.
-        int defaultHeight = 100;
         if (measureHeightMode == MeasureSpec.AT_MOST) {
-            height = Math.min(defaultHeight, measureHeight);
+            height = Math.min(100, measureHeight);//100是默认高度值
         } else if (measureHeightMode == MeasureSpec.EXACTLY) {
             height = measureHeight;
         } else {
             // 在这里给默认高度
-            height = defaultHeight;
+            height = 100;
         }
 
         setMeasuredDimension(width, height);
@@ -155,7 +154,7 @@ public class RangeBar extends View {
                 yPos,
                 mThumbColorNormal,
                 mThumbColorPressed,
-                mThumbRadiusDP,
+                mThumbRadiusDP,//圆半径
                 mThumbImageNormal,
                 mThumbImagePressed);
 
